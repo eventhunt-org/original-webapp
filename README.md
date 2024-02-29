@@ -1,10 +1,13 @@
-# Get Together
+# EventHunt - a Get Together fork
 
-[![Build Status](https://travis-ci.org/GetTogetherComm/GetTogether.svg?branch=master)](https://travis-ci.org/GetTogetherComm/GetTogether)
+EventHunt is an open source event manager for local communities.
 
-Get Together is an open source event manager for local communities.
+## What is monolith?
 
-Try it free at <https://gettogether.community>
+Monolith is the original Get Together codebase.
+It is a Django 2 webapp that connects to a database.
+In the short term, security improvements, bug fixes, and some low hanging fruit features will land in this repository to the original codebase.
+In the long-term, a separate API and front-end apps will be created.
 
 ## Goals
 
@@ -43,13 +46,13 @@ pip install virtualenv
 
 ### Configure your local repository
 
-If you haven't already, fork the project at <https://github.com/GetTogetherComm/GetTogether>
+If you haven't already, fork the project at <https://github.com/eventhunt-org/monolith>
 
 Clone your forked repository in your computer (see detailed instructions [here](https://help.github.com/en/articles/cloning-a-repository)).
 
-Navigate to the repository's location using the command line: `cd GetTogether`
+Navigate to the repository's location using the command line: `cd monolith`
 
-Add <https://github.com/GetTogetherComm/GetTogether.git> to remote following [these instructions](https://help.github.com/en/articles/configuring-a-remote-for-a-fork).
+Add <https://github.com/eventhunt-org/monolith.git> to remote following [these instructions](https://help.github.com/en/articles/configuring-a-remote-for-a-fork).
 
 ### Configure the virtual environment
 
@@ -65,7 +68,7 @@ virtualenv ./env
 virtualenv --python=python3 ./env
 ```
 
-### Install dependecies and migrate the database
+### Install dependencies and migrate the database
 
 - If you are in Mac or Linux:
 
@@ -217,30 +220,5 @@ You can import live event data into your "Searchable" table with this command:
 
 ## Getting Involved
 
-To contribute to Get Together, you can file issues here on GitHub, work on
-features you want it to have, or contact us on [Telegram](https://t.me/joinchat/AlruIk5yiQizaJ0YtYehzA) to learn more.
-
-Currently the project needs:
-
-- Designers
-  - We need a color scheme for the website
-  - We need a logo for the project
-  - We need user stories and mockups for those pages
-- Front-end developers
-  - We need to pick a JS/CSS framework for the front-end
-  - We need to Django page templates
-  - We need to know what APIs are needed for a dynamic front-end
-- QA Engineers
-  - We need Django test cases setup
-  - We need fuzz-testing setup with something like model-mommy
-  - We want testing automated on github pull requests
-- API/Federation experts
-  - We need to decide on using AppStream or rolling our own data/protocol
-  - We need to architect what data will be federated and it's use cases
-  - We need to support authenticated access to APIs for 3rd party apps
-- Devops
-  - We need a way to easily deploy and update GetTogether in production
-  - We need an easy way to get a development environment up and running
-  - We need to find a hosting service for gettogether.community
-
-If you can help with any of these, please get in touch with me!
+To contribute to EventHunt, you can file issues here on GitHub or work on
+features you want it to have via a PR.
