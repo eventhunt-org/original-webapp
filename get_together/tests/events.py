@@ -201,6 +201,7 @@ class EventTimesTests(TestCase):
         place = mommy.make(
             Place,
             name="Test Place",
+            address="",
             city=chicago,
             latitude=41.8796844,
             longitude=-87.63822920000001,
