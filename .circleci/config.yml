@@ -30,7 +30,6 @@ jobs:
               tk-dev \
               xz-utils \
               zlib1g-dev
-            pip install --upgrade pip
             pip install -r requirements.txt
       - run:
           name: "Run Tests"
