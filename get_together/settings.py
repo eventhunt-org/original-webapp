@@ -31,7 +31,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 SITE_ID = 1
-ADMINS = ["mhall119"]
+ADMINS = [("admin","admin@domain.com")]
 ALLOWED_EMAILS_PER_DAY = 100
 
 
