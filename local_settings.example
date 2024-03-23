@@ -1,6 +1,6 @@
 DEBUG = True
 DEBUG_IP = '8.8.8.8'# For geoip lookup when running on localhost
-ALLOWED_HOSTS = ['127.0.0.1', 'localhost', 'dev.gettogether.community']
+ALLOWED_HOSTS = ['127.0.0.1', 'localhost', 'eventhunt.local']
 
 STATIC_ROOT = './static'
 MEDIA_ROOT = './media'

@@ -11,6 +11,5 @@ ADD . .
 RUN python manage.py migrate
 
 STOPSIGNAL SIGINT
-ENV DJANGO_SETTINGS_MODULE=get_together.environ_settings
 CMD ["python", "manage.py", "runserver", "0.0.0.0:8000"]
 

@@ -215,7 +215,7 @@ MESSAGE_TAGS = {
 THEME_CONFIG = {
     "actions": {
         "host_event": {
-            "label": _("Host a Get Together"),
+            "label": _("Host an event"),
             "icon": "far fa-calendar-plus",
         }
     },

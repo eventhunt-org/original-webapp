@@ -602,7 +602,7 @@ msgid "You are no longer on this team."
 msgstr ""
 
 #: get_together/settings.py:218
-msgid "Host a Get Together"
+msgid "Host an event"
 msgstr ""
 
 #: get_together/settings.py:224
